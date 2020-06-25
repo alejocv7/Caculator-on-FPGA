@@ -286,29 +286,22 @@ module Operador(input logic [3:0] OP,
 
 	always_comb
 	case(OP)
-
-
 		// SUMA //
 		4'b1010: 
-
 			if (E) y = a+b;
 
 		// RESTA //
 		4'b1011: 
-
 			if (E) y = a-b;
 
 		// MULTIPLICACION //
 		4'b1100: 
-
 			if (E) y = a*b;
 
 		// DIVISION //
 		4'b1101: 
-
 			if (E) y = a/b;
 
-		default: y = 4'b0000;
-		
+		default: y = 4'b0000;		
 	endcase
 endmodule
