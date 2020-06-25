@@ -1,4 +1,4 @@
-# Caculator-on-FPGA
+# Caculator on FPGA
 
 ## Skills and tools used
 
